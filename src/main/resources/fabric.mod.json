@@ -19,13 +19,13 @@
 			"com.portalCraft.PortalCraftMod"
 		],
 		"client": [
-			"com.example.ExampleModClient"
+			"com.portalCraft.PortalCraftModClient"
 		]
 	},
 	"mixins": [
-		"001.mixins.json",
+		"modid.mixins.json",
 		{
-			"config": "001.client.mixins.json",
+			"config": "modid.client.mixins.json",
 			"environment": "client"
 		}
 	],
