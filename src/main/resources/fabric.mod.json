@@ -1,37 +1,37 @@
 {
 	"schemaVersion": 1,
-	"id": "modid",
+	"id": "001",
 	"version": "${version}",
-	"name": "Example mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "PortalCraft",
+	"description": "PortalCraft is a mod that goes in tandem with the PortalCraft Texturepack.",
 	"authors": [
-		"Me!"
+		"Dani E"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/Creepermin-20/fabric-example-mod-1.21"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/modid/icon.png",
+	"icon": "assets/001/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			"com.example.ExampleMod"
+			"com.portalCraft.PortalCraftMod"
 		],
 		"client": [
 			"com.example.ExampleModClient"
 		]
 	},
 	"mixins": [
-		"modid.mixins.json",
+		"001.mixins.json",
 		{
-			"config": "modid.client.mixins.json",
+			"config": "001.client.mixins.json",
 			"environment": "client"
 		}
 	],
 	"depends": {
 		"fabricloader": ">=0.16.10",
-		"minecraft": "~1.21.5",
+		"minecraft": "~1.21.4",
 		"java": ">=21",
 		"fabric-api": "*"
 	},
